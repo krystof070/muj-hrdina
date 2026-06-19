@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proč jsem si vybral zrovna Ohnepixela?">
+    <meta name="keywords" content="Ohnepixel, Streaming, CS2, Twitch, Gold, Knife, CS:GO">
+    <meta name="author" content="Kryštof Knol">
+    <title>Ohnepixel - Proč zrovna Ohnepixel?</title>
+    <link rel="icon" type="image/x-icon" href="img/Drillas.webp">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="menu">
+        <input type="checkbox" id="menu-toggle-proc" class="menu-toggle" aria-label="Otevřít navigaci">
+        <a href="index.html" class="menu-logo">
+            <img src="img/GoldLogo.png" alt="Logo">
+        </a>
+        <label for="menu-toggle-proc" class="menu-toggle-label" aria-label="Otevřít menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <ul class="menu-links">
+            <li><a href="index.html">ÚVOD</a></li>
+            <li><a href="pribeh.html">PŘÍBĚH</a></li>
+            <li><a href="uspechy.html">ÚSPĚCHY</a></li>
+            <li><a href="proc.html">PROČ ON?</a></li>
+            <li><a href="galerie.html">GALERIE</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="main-title">Ohnepixel - Proč zrovna on?</h1>
+
+    <main class="proc-page">
+        <section class="intro-section">
+            <article class="intro-inner story-entry">
+                <div class="text-block">
+                    <h2 class="section-title">Proč jsem si vybral zrovna Ohnepixela?</h2>
+                    <p class="text1">Jako svého hrdinu jsem si vybral Ohnepixela, protože ho sleduji už mnoho let a velmi mě baví jeho obsah. Líbí se mi jeho smysl pro <u>humor</u>, <u>osobnost</u> a způsob, jakým <u>komunikuje</u> se svými fanoušky. Obdivuji také jeho rozsáhlé znalosti o předmětech a skinech ve hře Counter-Strike 2. Díky němu jsem se začal více zajímat o <u>investování</u> do herních předmětů a často se jeho názory a zkušenostmi inspiruji. Je pro mě <u>vzorem</u>, protože dokázal spojit svůj koníček s úspěšnou kariérou a vybudoval si jméno po <u>celém</u> světě. Proto jsem si jako svého hrdinu vybral právě <u>Ohnepixela</u>.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <form action="formular.html" method="get" class="feedback-form">
+        <h2 class="section-title">Napište mi Váš názor na tento web</h2>
+
+        <label for="jmeno">Celé jméno</label>
+        <input type="text" id="jmeno" name="jmeno" placeholder="Zadejte své jméno" required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Zadejte svůj email" required>
+
+        <label for="password">Heslo</label>
+        <input type="password" id="password" name="password" placeholder="Zadejte své heslo" required>
+
+        <label>Kvalita webu</label>
+        <div class="radio-group">
+            <label><input type="radio" name="priorita" value="Nízká" required> Nízká</label>
+            <label><input type="radio" name="priorita" value="Střední" required> Střední</label>
+            <label><input type="radio" name="priorita" value="Vysoká" required> Vysoká</label>
+        </div>
+
+        <label for="popis">Váš názor</label>
+        <textarea name="popis" id="popis" placeholder="Zde popište, jak se Vám web líbil" required></textarea>
+
+        <button type="submit">Odeslat</button>
+    </form>
+
+    <footer class="footer">
+        <p>&copy; Kryštof Knol IT1B 2025/26</p>
+
+        <p>
+            Zdroje:
+            <a href="https://www.twitch.tv/ohnepixel" target="_blank" rel="noopener noreferrer">Twitch</a>,
+            <a href="https://www.youtube.com/@ohnePixel" target="_blank" rel="noopener noreferrer">YouTube</a>,
+            <a href="https://liquipedia.net/counterstrike/DRILLAS" target="_blank" rel="noopener noreferrer">Liquipedia</a>
+        </p>
+    </footer>
+</body>
+</html>
